@@ -1,0 +1,53 @@
+{
+  "language": "japanese",
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash(mv:*)",
+      "Bash(cp:*)",
+      "Bash(mkdir:*)",
+      "Bash(rm:*)",
+      "Bash(osascript:*)",
+      "Bash(python3:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(mdls:*)",
+      "Read",
+      "Write",
+      "Edit"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "find \"$HOME/Desktop\" -maxdepth 1 -name \"*.png\" -exec mv {} \"$HOME/.Trash/\" \\; 2>/dev/null; rm -f /tmp/kuro_screenshot.png 2>/dev/null; python3 ~/.claude/add_japanese_summaries.py > /dev/null 2>&1; true",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"import json; from datetime import datetime,timezone,timedelta; jst=datetime.now(timezone(timedelta(hours=9))); t=jst.strftime('%H:%M'); print(json.dumps({'hookSpecificOutput':{'hookEventName':'UserPromptSubmit','additionalContext':'現在時刻JST: '+t+' この返答の最初の行に必ず【🕐 '+t+'】と表示してください。'}}, ensure_ascii=False))\"",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/kuro_screenshot.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
