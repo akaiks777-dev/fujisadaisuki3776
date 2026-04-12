@@ -1,21 +1,55 @@
 {
-  "language": "japanese",
   "permissions": {
-    "defaultMode": "bypassPermissions",
     "allow": [
-      "Bash(mv:*)",
-      "Bash(cp:*)",
-      "Bash(mkdir:*)",
-      "Bash(rm:*)",
-      "Bash(osascript:*)",
-      "Bash(python3:*)",
-      "Bash(find:*)",
-      "Bash(ls:*)",
-      "Bash(mdls:*)",
+      "Bash(*)",
       "Read",
       "Write",
-      "Edit"
-    ]
+      "Edit",
+      "Glob",
+      "Grep",
+      "Agent",
+      "NotebookEdit",
+      "WebFetch",
+      "WebSearch",
+      "mcp__Claude_in_Chrome__*",
+      "mcp__Control_Chrome__*",
+      "mcp__computer-use__screenshot",
+      "mcp__computer-use__zoom",
+      "mcp__computer-use__list_granted_applications",
+      "mcp__computer-use__cursor_position",
+      "mcp__computer-use__wait",
+      "mcp__Claude_Preview__*",
+      "mcp__cf21e2af-f3ae-4ae2-a581-d7b4bab0958f__search_threads",
+      "mcp__cf21e2af-f3ae-4ae2-a581-d7b4bab0958f__get_thread",
+      "mcp__cf21e2af-f3ae-4ae2-a581-d7b4bab0958f__list_drafts",
+      "mcp__cf21e2af-f3ae-4ae2-a581-d7b4bab0958f__list_labels",
+      "mcp__17aa2c98-3140-430b-ba0b-4586fccc2951__gcal_list_events",
+      "mcp__17aa2c98-3140-430b-ba0b-4586fccc2951__gcal_list_calendars",
+      "mcp__17aa2c98-3140-430b-ba0b-4586fccc2951__gcal_get_event",
+      "mcp__17aa2c98-3140-430b-ba0b-4586fccc2951__gcal_find_my_free_time",
+      "mcp__17aa2c98-3140-430b-ba0b-4586fccc2951__gcal_find_meeting_times",
+      "mcp__scheduled-tasks__*",
+      "mcp__mcp-registry__*"
+    ],
+    "deny": [
+      "mcp__computer-use__type",
+      "mcp__computer-use__key",
+      "mcp__computer-use__left_click",
+      "mcp__computer-use__double_click",
+      "mcp__computer-use__triple_click",
+      "mcp__computer-use__right_click",
+      "mcp__computer-use__middle_click",
+      "mcp__computer-use__left_click_drag",
+      "mcp__computer-use__left_mouse_down",
+      "mcp__computer-use__left_mouse_up",
+      "mcp__computer-use__mouse_move",
+      "mcp__computer-use__scroll",
+      "mcp__computer-use__computer_batch",
+      "mcp__computer-use__hold_key",
+      "mcp__computer-use__request_access",
+      "mcp__computer-use__open_application"
+    ],
+    "defaultMode": "bypassPermissions"
   },
   "hooks": {
     "Stop": [
@@ -49,5 +83,7 @@
         ]
       }
     ]
-  }
+  },
+  "language": "japanese",
+  "skipDangerousModePermissionPrompt": true
 }
