@@ -75,14 +75,14 @@
 
 ## 同期コマンド（重要・削除禁止）
 
-### 「ミニからノート」= Mac mini → iCloud → MacBook Air
-ユーザーが `ミニからノート` と入力したら、**確認なしで即座に**実行する。
+### 「本店から支店」= Mac mini → iCloud → MacBook Air
+ユーザーが `本店から支店` と入力したら、**確認なしで即座に**実行する。
 ```
 bash "$HOME/Library/Mobile Documents/com~apple~CloudDocs/ClaudeCode_Sync/sync_from_local.sh"
 ```
 
-### 「ノートからミニ」= MacBook Air → iCloud → Mac mini
-ユーザーが `ノートからミニ` と入力したら、**確認なしで即座に**実行する。
+### 「支店から本店」= MacBook Air → iCloud → Mac mini
+ユーザーが `支店から本店` と入力したら、**確認なしで即座に**実行する。
 ```
 bash "$HOME/Library/Mobile Documents/com~apple~CloudDocs/ClaudeCode_Sync/sync_to_local.sh"
 ```
@@ -94,8 +94,8 @@ bash "$HOME/Library/Mobile Documents/com~apple~CloudDocs/ClaudeCode_Sync/sync_to
 3. マスターの言い間違いの可能性も考慮し、状況に合った方向か確認する
 
 ### 仕組み
-- `ミニからノート`：`Mac mini` → `iCloud` → `MacBook Air`（Mac miniの内容をMacBookに送る）
-- `ノートからミニ`：`MacBook Air` → `iCloud` → `Mac mini`（MacBook Airの内容をMac miniに取り込む）
+- `本店から支店`：`Mac mini`（本店） → `iCloud` → `MacBook Air`（支店）（本店の内容を支店に送る）
+- `支店から本店`：`MacBook Air`（支店） → `iCloud` → `Mac mini`（本店）（支店の内容を本店に取り込む）
 - 同期対象：`CLAUDE.md`、`settings.json`、`kuro_screenshot.py`、`plugins/`、`scheduled-tasks/`、`org/`（組織管理）、`projects/`（チャット履歴）、`history.jsonl`、`Espanso`設定、同期スクリプト、`LaunchAgents`
 
 ### 目的
@@ -103,8 +103,8 @@ bash "$HOME/Library/Mobile Documents/com~apple~CloudDocs/ClaudeCode_Sync/sync_to
 - 新しいセッションが増えても自動的に同期対象に含まれる
 
 ### スクリプトの場所
-- `ミニからノート`（`Mac mini` → `iCloud` → `MacBook Air`）：`iCloud Drive/ClaudeCode_Sync/sync_from_local.sh`
-- `ノートからミニ`（`MacBook Air` → `iCloud` → `Mac mini`）：`iCloud Drive/ClaudeCode_Sync/sync_to_local.sh`
+- `本店から支店`（`Mac mini` → `iCloud` → `MacBook Air`）：`iCloud Drive/ClaudeCode_Sync/sync_from_local.sh`
+- `支店から本店`（`MacBook Air` → `iCloud` → `Mac mini`）：`iCloud Drive/ClaudeCode_Sync/sync_to_local.sh`
 
 ## MacBook Air からメイド長に接続する方法（重要・削除禁止）
 
@@ -171,7 +171,9 @@ bash ~/Library/Mobile\ Documents/com~apple~CloudDocs/ClaudeCode_Sync/setup_macbo
 | 1 | 事業部 | 輸入販売の事業計画・調査 | `9eef8221` | ⏸ 指示待ち |
 | 2 | 経理部 | マネーフォワード家計管理 | `moneyforward-monthly-report` | ✅ 定期実行中 |
 | 3 | 販売部 | メルカリ出品・販売管理 | `01d48359` | ✅ 出品完了 |
-| 4 | （新規追加時にここに記載） | | | |
+| 4 | 健康管理部 | 体重・血圧・薬・人間ドック・検査 | Agentツール | 🆕 データ待ち |
+| 5 | 旅行部 | ANA特典航空券検索・旅行プラン | Agentツール | 🆕 拡張機能インストール待ち |
+| 6 | （新規追加時にここに記載） | | | |
 
 ## メルカリ出品自動化手順（重要・削除禁止）
 
@@ -248,10 +250,26 @@ bash ~/Library/Mobile\ Documents/com~apple~CloudDocs/ClaudeCode_Sync/setup_macbo
 - `MacBook` の `Chrome` で操作する場合は `Claude in Chrome` 拡張機能が必要（`Mac mini` には導入済み、`MacBook` にも `2026-04-12` に導入済み）
 - 出品ボタンを押す前に必ずマスターの確認を取ること
 
-## 引き継ぎメモ（2026-04-12）
+## 引き継ぎメモ（2026-04-13）
 
-### 完了済み（4/12）
-12. **組織型管理体制の整備** — メイド長方式に切り替え。`Mac mini` のメインセッションがメイド長として各部門を `Agent` ツールで管理。`~/.claude/org/` に共有ステータスボード・部門定義ファイルを作成。同期スクリプトにも `org/` を追加済み
+### 完了済み（4/13 夜）
+20. **`iCloud Drive` 容量削減** — `動画.zip`(`11.8GB`) / `Photos.zip`(`11.8GB`) / `GooglePhotos/`フォルダ(`7.5GB`) / 不要インストーラー(`1.6GB`) を削除。合計約`31GB`削減
+21. **`Chrome` タブグループ自動保存オフ** — `chrome://flags` で `Bookmark and tab group conversion` を `Disabled` に変更。各部門の作業後にタブグループがブックマークバーに溜まる問題を解決
+22. **ANA関連タブ・タブグループ削除** — 旅行部・販売部のタブグループも手動削除済み
+23. **重複 `.jsonl` ファイル削除** — `iCloud` 同期で発生した重複セッションファイルを削除
+
+### 未完了（次回対応）
+- **健康管理部：健康診断データの `Google スプレッドシート` 化** — メモアプリに `Dropbox` 経由で健康診断の写真を保存済み。スクリーンショット経由だと解像度が低く読み取り困難。次回は写真を**メモアプリから書き出し**（共有 → 画像を保存 → `~/Downloads/`）して、`Read` ツールで直接読み込んでデータ化する。血液検査結果・検査報告書など複数枚あり
+- **`iCloud Drive` 容量の継続監視** — 削除後 `37.2GB` → 反映待ち。`Claude Code` のセッション（`projects/`）が `2.1GB` あり、今後増加する見込み（月`2〜3GB`ペース）。`projects/` の `iCloud` 同期は `Tailscale` 障害時のバックアップとして残す判断
+
+### 完了済み（4/12 夜）
+16. **`Tailscale` + `SSH` 方式に一本化** — `iCloud` 同期が不安定なため、`MacBook Air` → `Mac mini` は `Tailscale` 経由の `SSH` 接続に切り替え。`iCloud` 同期は廃止
+17. **`maid` コマンド設定完了** — `MacBook Air` のターミナルで `maid` と打つだけでメイド長（`Mac mini` の `Claude Code`）に接続可能に
+18. **`MacBook Air` の `Claude Code` 自動接続設定** — `MacBook Air` の `CLAUDE.md` にセッション開始時に自動で `Mac mini` のメイド長に接続するルールを追加
+19. **同期コマンド復唱ルール改善** — 方向間違い防止の復唱ルールを `CLAUDE.md` に追記済み
+
+### 完了済み（4/12 昼）
+12. **組織型管理体制の整備** — メイド長方式に切り替え。`Mac mini` のメインセッションがメイド長として各部門を `Agent` ツールで管理。`~/.claude/org/` に共有ステータスボード・部門定義ファイルを作成
 13. **メイド朝礼レポート設定** — 毎朝`6`時にメイド口調で全部門のステータスを報告する `scheduled-task` を作成（`pm-daily-report`）
 14. **同期コマンド復唱ルール追加** — 方向間違い防止のため、同期実行前に必ず復唱・確認するルールを `CLAUDE.md` に追記
 15. **メルカリ出品完了** — 商品出品済み
