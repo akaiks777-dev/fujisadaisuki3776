@@ -1,5 +1,7 @@
 {
+  "language": "japanese",
   "permissions": {
+    "defaultMode": "bypassPermissions",
     "allow": [
       "Bash(*)",
       "Read",
@@ -48,8 +50,7 @@
       "mcp__computer-use__hold_key",
       "mcp__computer-use__request_access",
       "mcp__computer-use__open_application"
-    ],
-    "defaultMode": "bypassPermissions"
+    ]
   },
   "hooks": {
     "Stop": [
@@ -83,7 +84,5 @@
         ]
       }
     ]
-  },
-  "language": "japanese",
-  "skipDangerousModePermissionPrompt": true
+  }
 }

@@ -74,17 +74,6 @@
       "homepage": "https://github.com/awslabs/agent-plugins"
     },
     {
-      "name": "amplitude",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/amplitude/mcp-marketplace.git",
-        "sha": "be54ccb66b10593721dd3a31e47b2db20ea02d2f"
-      },
-      "description": "Use Amplitude as an expert analyst — instrument Amplitude, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts.",
-      "category": "monitoring",
-      "homepage": "https://github.com/amplitude/mcp-marketplace"
-    },
-    {
       "name": "asana",
       "description": "Asana project management integration. Create and manage tasks, search projects, update assignments, track progress, and integrate your development workflow with Asana's work management platform.",
       "category": "productivity",
@@ -159,28 +148,6 @@
       "homepage": "https://github.com/awslabs/agent-plugins"
     },
     {
-      "name": "azure-cosmos-db-assistant",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin.git",
-        "sha": "56e6da0cae93cdee8bcfa5e624ecdd9a0a483181"
-      },
-      "description": "Expert assistant for Azure Cosmos DB — data modeling, query optimization, performance tuning, and best practices.",
-      "category": "database",
-      "homepage": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin"
-    },
-    {
-      "name": "box",
-      "description": "Work with your Box content directly from Claude Code — search files, organize folders, collaborate with your team, and use Box AI to answer questions, summarize documents, and extract data without leaving your workflow.",
-      "category": "productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/box/box-for-ai.git",
-        "sha": "6f4ec3549f3e869b115628403555b1c9220b2b34"
-      },
-      "homepage": "https://github.com/box/box-for-ai"
-    },
-    {
       "name": "brightdata-plugin",
       "description": "Web scraping, Google search, structured data extraction, and MCP server integration powered by Bright Data. Includes 7 skills: scrape any webpage as markdown (with bot detection/CAPTCHA bypass), search Google with structured JSON results, extract data from 40+ websites (Amazon, LinkedIn, Instagram, TikTok, YouTube, and more), orchestrate Bright Data's 60+ MCP tools, built-in best practices for Web Unlocker, SERP API, Web Scraper API, and Browser API, Python SDK best practices for the brightda...",
       "source": {
@@ -189,17 +156,6 @@
         "sha": "e671da495f7ec0ed6be5e9fa71e260f886a1dc36"
       },
       "homepage": "https://docs.brightdata.com"
-    },
-    {
-      "name": "cds-mcp",
-      "description": "AI-assisted development of SAP Cloud Application Programming Model (CAP) projects. Search CDS models and CAP documentation.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cap-js/mcp-server.git",
-        "sha": "4d59d7070a52761a9b8028cbe710c8d7477cbc92"
-      },
-      "homepage": "https://cap.cloud.sap/"
     },
     {
       "name": "chrome-devtools-mcp",
@@ -274,17 +230,6 @@
       "source": "./plugins/claude-md-management",
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management"
-    },
-    {
-      "name": "cloudflare",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cloudflare/skills.git",
-        "sha": "5ec03da67e230df52b698255c8e5979dc9b124b6"
-      },
-      "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and web performance.",
-      "category": "deployment",
-      "homepage": "https://github.com/cloudflare/skills"
     },
     {
       "name": "cloudinary",
@@ -440,18 +385,6 @@
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/explanatory-output-style"
     },
     {
-      "name": "expo",
-      "description": "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI development with Expo Router, SwiftUI and Jetpack Compose components, Tailwind CSS setup, API routes, data fetching, CI/CD workflows, App Store and Play Store deployment, SDK upgrades, DOM components, and dev client distribution.",
-      "category": "development",
-      "source": {
-        "source": "git-subdir",
-        "url": "expo/skills",
-        "path": "plugins/expo",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/expo/skills/blob/main/plugins/expo/README.md"
-    },
-    {
       "name": "fakechat",
       "description": "Localhost web chat for testing the channel notification flow. No tokens, no access control, no third-party service.",
       "category": "development",
@@ -531,7 +464,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tryflint/claude-code-plugin.git",
-        "sha": "f3d56e33ed2fb3ed9b4f02e0fc65d0a79b24bf4d"
+        "sha": "8f57ef474f59817c7e5930dd6c295232d43c3711"
       },
       "homepage": "https://www.tryflint.com/docs/claude-code-plugin"
     },
@@ -762,17 +695,6 @@
       }
     },
     {
-      "name": "math-olympiad",
-      "description": "Solve competition math (IMO, Putnam, USAMO) with adversarial verification that catches what self-verification misses. Fresh-context verifiers attack proofs with specific failure patterns. Calibrated abstention over bluffing.",
-      "author": {
-        "name": "Anthropic",
-        "email": "support@anthropic.com"
-      },
-      "source": "./plugins/math-olympiad",
-      "category": "math",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad"
-    },
-    {
       "name": "mcp-server-dev",
       "description": "Skills for designing and building MCP servers that work seamlessly with Claude. Guides you through deployment models (remote HTTP, MCPB, local), tool design patterns, auth, and interactive MCP apps.",
       "author": {
@@ -815,17 +737,6 @@
         "sha": "ce435be18a700dc849d6a63a80da4816d1e2128c"
       },
       "homepage": "https://www.mintlify.com/"
-    },
-    {
-      "name": "mongodb",
-      "description": "Official Claude plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, optimize queries, generate reliable code, implement best practices, develop advanced features, and more.",
-      "category": "database",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/mongodb/agent-skills.git",
-        "sha": "c47079f65e88a113c52d1ce0618684cef300246c"
-      },
-      "homepage": "https://www.mongodb.com/docs/mcp-server/overview/"
     },
     {
       "name": "neon",
@@ -990,7 +901,8 @@
       "category": "monitoring",
       "source": {
         "source": "url",
-        "url": "https://github.com/PostHog/ai-plugin.git"
+        "url": "https://github.com/PostHog/ai-plugin.git",
+        "sha": "f2f37954ecef9f1afce4fa81b6a612454a96c410"
       },
       "homepage": "https://posthog.com/docs/model-context-protocol"
     },
@@ -1011,7 +923,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Postman-Devrel/postman-claude-code-plugin.git",
-        "sha": "40b11ac3466c500cf4625ac016d5c01cd00046f4"
+        "sha": "0714280351c1a137e79aad465a66730511ffbd57"
       },
       "homepage": "https://learning.postman.com/docs/developer/postman-mcp-server/"
     },
@@ -1045,18 +957,6 @@
         "sha": "341f8cf47d8b5dda550222152377c50aee34c723"
       },
       "homepage": "https://www.accoil.com/product-tracking"
-    },
-    {
-      "name": "pydantic-ai",
-      "description": "Write accurate Pydantic AI code from the start. Up-to-date patterns, decision trees, and common gotchas for agents, tools, structured output, streaming, and multi-agent apps.",
-      "category": "development",
-      "source": {
-        "source": "git-subdir",
-        "url": "pydantic/skills",
-        "path": "plugins/ai",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/pydantic/skills/tree/main/plugins/ai"
     },
     {
       "name": "pyright-lsp",
@@ -1193,7 +1093,7 @@
       }
     },
     {
-      "name": "sanity",
+      "name": "sanity-plugin",
       "description": "Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, build and optimize GROQ queries, design schemas, and set up Visual Editing.",
       "category": "development",
       "author": {
@@ -1259,17 +1159,6 @@
       ]
     },
     {
-      "name": "session-report",
-      "description": "Generate an explorable HTML report of Claude Code session usage — tokens, cache efficiency, subagents, skills, and the most expensive prompts — from local ~/.claude/projects transcripts.",
-      "author": {
-        "name": "Anthropic",
-        "email": "support@anthropic.com"
-      },
-      "source": "./plugins/session-report",
-      "category": "productivity",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/session-report"
-    },
-    {
       "name": "skill-creator",
       "description": "Create new skills, improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, or benchmark skill performance with variance analysis.",
       "author": {
@@ -1291,16 +1180,6 @@
       "homepage": "https://github.com/slackapi/slack-mcp-plugin/tree/main"
     },
     {
-      "name": "sonarqube-agent-plugins",
-      "description": "Integrate SonarQube code quality and security analysis into Claude Code: namespaced slash commands, a guided skill to setup the SonarQube CLI, and a startup check for CLI wiring. MCP server registration and secrets-scanning hooks are installed by the SonarQube CLI as part of setup.",
-      "category": "security",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/SonarSource/sonarqube-agent-plugins.git"
-      },
-      "homepage": "https://github.com/SonarSource/sonarqube-agent-plugins"
-    },
-    {
       "name": "sonatype-guide",
       "description": "Sonatype Guide MCP server for software supply chain intelligence and dependency security. Analyze dependencies for vulnerabilities, get secure version recommendations, and check component quality metrics.",
       "category": "security",
@@ -1320,17 +1199,6 @@
         "sha": "cfe3d44476957b16d1575261bef6b2dc7cb1e0b7"
       },
       "homepage": "https://sourcegraph.com"
-    },
-    {
-      "name": "spotify-ads-api",
-      "description": "Manage Spotify ad campaigns with natural language. Create campaigns, ad sets, ads, pull reports, and handle OAuth — all through conversation.",
-      "category": "productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/spotify/ads-claude-plugin.git",
-        "sha": "a4bce9912db071d47dfb410086a48004e0539efa"
-      },
-      "homepage": "https://github.com/spotify/ads-claude-plugin"
     },
     {
       "name": "stagehand",
@@ -1464,32 +1332,6 @@
       }
     },
     {
-      "name": "ui5",
-      "description": "SAPUI5 / OpenUI5 plugin for Claude. Create and validate UI5 projects, access API documentation, run UI5 linter, get development guidelines and best practices for UI5 development.",
-      "category": "development",
-      "source": {
-        "source": "git-subdir",
-        "url": "UI5/plugins-claude",
-        "path": "plugins/ui5",
-        "ref": "main",
-        "sha": "5070dfc1cef711d6efad40beb43750027039d71f"
-      },
-      "homepage": "https://github.com/UI5/plugins-claude"
-    },
-    {
-      "name": "ui5-typescript-conversion",
-      "description": "SAPUI5 / OpenUI5 plugin for Claude. Convert JavaScript based UI5 projects to TypeScript.",
-      "category": "development",
-      "source": {
-        "source": "git-subdir",
-        "url": "UI5/plugins-claude",
-        "path": "plugins/ui5-typescript-conversion",
-        "ref": "main",
-        "sha": "5070dfc1cef711d6efad40beb43750027039d71f"
-      },
-      "homepage": "https://github.com/UI5/plugins-claude"
-    },
-    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Claude Code.",
       "category": "deployment",
@@ -1544,14 +1386,15 @@
       "homepage": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier"
     },
     {
-      "name": "zoom-plugin",
-      "description": "Claude plugin for planning, building, and debugging Zoom integrations across REST APIs, SDKs, webhooks, bots, and MCP workflows.",
-      "category": "development",
+      "name": "zoominfo",
+      "description": "Search companies and contacts, enrich leads, find lookalikes, and get AI-ranked contact recommendations. Pre-built skills chain multiple ZoomInfo tools into complete B2B sales workflows.",
+      "category": "productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/zoom/zoom-plugin.git"
+        "url": "https://github.com/Zoominfo/zoominfo-mcp-plugin.git",
+        "sha": "0705316ef8a2d0c64f81e50d4612ccc6a74edf03"
       },
-      "homepage": "https://developers.zoom.us/"
+      "homepage": "https://zoominfo.com"
     }
   ]
 }
