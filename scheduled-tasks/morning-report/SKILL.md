@@ -33,6 +33,13 @@ description: 毎朝6時にメイド口調で全部門のステータスを報告
 ■ 本日のご予定
   → [カレンダーから取得した予定]
 
+■ Claude Code アップデート情報
+  → `npm view @anthropic-ai/claude-code time --json` で最新バージョンとリリース日を確認
+  → `claude --version` でマスターの現在のバージョンを確認
+  → 新しいバージョンがあれば、バージョン番号・リリース日・主な変更点を簡潔に報告
+  → 変更点は https://docs.anthropic.com/en/docs/claude-code/changelog をWebFetchで確認して要約
+  → 更新がなければ「最新版です」と報告
+
 ■ マスターにご確認いただきたい事項
   → [確認事項があれば記載]
 
