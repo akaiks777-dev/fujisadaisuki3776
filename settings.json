@@ -53,6 +53,17 @@
     ]
   },
   "hooks": {
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/touchid_guard.py",
+            "timeout": 35
+          }
+        ]
+      }
+    ],
     "Stop": [
       {
         "hooks": [
@@ -80,6 +91,15 @@
             "type": "command",
             "command": "python3 ~/.claude/kuro_screenshot.py",
             "timeout": 10
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/touchid_confirm.py",
+            "timeout": 35
           }
         ]
       }
