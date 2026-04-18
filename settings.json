@@ -69,7 +69,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "find \"$HOME/Desktop\" -maxdepth 1 -name \"*.png\" -exec mv {} \"$HOME/.Trash/\" \\; 2>/dev/null; rm -f /tmp/kuro_screenshot.png 2>/dev/null; python3 ~/.claude/add_japanese_summaries.py > /dev/null 2>&1; true",
+            "command": "find \"$HOME/Desktop\" -maxdepth 1 -name \"*.png\" -exec mv {} \"$HOME/.Trash/\" \\; 2>/dev/null; rm -f /tmp/kuro_screenshot.png /tmp/kuro_screenshot_1.png /tmp/kuro_screenshot_2.png 2>/dev/null; python3 ~/.claude/add_japanese_summaries.py > /dev/null 2>&1; bash ~/.claude/close_chrome_tabs.sh > /dev/null 2>&1; true",
             "timeout": 15
           }
         ]
