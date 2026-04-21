@@ -18,9 +18,6 @@ BACKUP_FILES=(
     "get_today_title.py"
     "mercari_photo.py"
     "libecity-seen-articles.json"
-    "discussion_board.md"
-    "relay_notes.md"
-    "statusboard.md"
 )
 
 # バックアップ対象ディレクトリ
@@ -28,7 +25,6 @@ BACKUP_DIRS=(
     "org"
     "scheduled-tasks"
     "plugins"
-    "departments"
 )
 
 # ========================================

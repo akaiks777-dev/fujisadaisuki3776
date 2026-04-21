@@ -1,8 +1,22 @@
 {
   "permissions": {
+    "defaultMode": "bypassPermissions",
     "allow": [
       "mcp__17aa2c98-3140-430b-ba0b-4586fccc2951__list_events",
-      "mcp__17aa2c98-3140-430b-ba0b-4586fccc2951__list_calendars"
+      "mcp__17aa2c98-3140-430b-ba0b-4586fccc2951__list_calendars",
+      "Write(/Users/shigesan/.claude/voice_script.txt)",
+      "Write(/Users/shigesan/.claude/**)",
+      "Write(//*)",
+      "Write",
+      "Edit(/Users/shigesan/.claude/**)",
+      "Edit",
+      "Bash",
+      "Bash(*)",
+      "Bash(screencapture*)",
+      "Bash(python3*)",
+      "Bash(osascript*)",
+      "Bash(open*)",
+      "Bash(curl*)"
     ]
   }
 }

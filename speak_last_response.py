@@ -22,7 +22,7 @@ def speak_file():
         print("読み上げるテキストがありません")
         return
 
-    speaker = 9  # 波音リツ（ノーマル）
+    speaker = 20  # もち子さん（ノーマル）
 
     req = urllib.request.Request(
         "http://localhost:50021/audio_query?text=" + urllib.request.quote(text) + "&speaker=" + str(speaker),
@@ -33,7 +33,7 @@ def speak_file():
 
     # 確定パラメーター
     query["pitchScale"] = 0.01
-    query["speedScale"] = 0.96
+    query["speedScale"] = 1.1
     query["intonationScale"] = 0.5
 
     for ap in query["accent_phrases"]:
