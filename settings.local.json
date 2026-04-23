@@ -1,6 +1,5 @@
 {
   "permissions": {
-    "defaultMode": "bypassPermissions",
     "allow": [
       "mcp__17aa2c98-3140-430b-ba0b-4586fccc2951__list_events",
       "mcp__17aa2c98-3140-430b-ba0b-4586fccc2951__list_calendars",
@@ -16,7 +15,10 @@
       "Bash(python3*)",
       "Bash(osascript*)",
       "Bash(open*)",
-      "Bash(curl*)"
-    ]
+      "Bash(curl*)",
+      "mcp__cf21e2af-f3ae-4ae2-a581-d7b4bab0958f__create_label",
+      "mcp__cf21e2af-f3ae-4ae2-a581-d7b4bab0958f__create_draft"
+    ],
+    "defaultMode": "bypassPermissions"
   }
 }
