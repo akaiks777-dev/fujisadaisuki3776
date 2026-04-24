@@ -950,3 +950,80 @@ American Express 請求書
 - **スター付きは絶対に削除しない**（検索クエリに `-is:starred` を含める）
 - 削除はすべて「ゴミ箱へ移動」（完全削除は不可・セキュリティルール）
 - 30日以内なら復元可能
+
+## 金融・契約系サイトの操作確認ルール（2026-04-24 制定・削除禁止）
+
+### 本質
+以下のサイトでは、**クリック・入力・送信などの操作を実行する前に、必ずマスターに確認する**。
+ナビゲート（URLを開く）・画面読み取りまではOKだが、**取引・契約・変更を伴う操作は必ず確認**する。
+
+### 対象サイト一覧
+
+#### 🏦 銀行
+- みずほダイレクト / みずほ銀行 (`mizuhobank.co.jp`)
+- スルガ銀行 (`surugabank.co.jp`)
+- JRE BANK / 楽天銀行 (`rakuten-bank.co.jp`)
+- 住信SBIネット銀行 (`ssnb.x.moneyforward.com`, `netbk.co.jp`)
+- 三島信用金庫 (`mishima-shinkin.co.jp`)
+
+#### 💳 クレジットカード
+- エポスカード (`eposcard.co.jp`)
+- UCみずほカード / SAISON CARD (`saisoncard.co.jp`)
+- ビューカード (`viewsnet.jp`)
+- JQ CARD (`jrkyushu.co.jp`)
+- アメックス (`americanexpress.com`)
+- JCB / MyJCB (`jcb.co.jp`)
+- 楽天カード (`rakuten-card.co.jp`)
+
+#### 📈 証券
+- SBI証券 (`sbisec.co.jp`)
+- 楽天証券 (`rakuten-sec.co.jp`)
+
+#### 🛡️ 保険
+- アクサダイレクト (`axa-direct.co.jp`)
+- SBI損保 (`sbisonpo.co.jp`)
+- SBI日本少額短期保険 (`n-ssi.co.jp`)
+
+#### 📡 契約系（公共料金・通信）
+- 静岡ガス (`shizuokagas.co.jp`)
+- コミファ光 (`commufa.jp`)
+- 楽天モバイル (`mobile.rakuten.co.jp`)
+
+#### 🛒 決済が絡むECサイト
+- Amazon (`amazon.co.jp`)
+- 楽天市場 (`rakuten.co.jp`)
+
+### 契約解除済み（対象外）
+- アプラス (`aplus.co.jp`) — 2026-04-24 解除確認
+- ファミマTカード (`pocketcard.co.jp`) — 2026-04-24 解除確認
+- マネックス証券 (`monex.ifis.co.jp`) — 2026-04-24 解除確認
+
+### 具体ルール
+
+#### ✅ 許可する操作（確認不要）
+- URLを開く（`navigate`）
+- 画面内容を読み取る（`read_page`, `get_page_text`, `screenshot`）
+- ログイン状態の確認
+
+#### ⚠️ 必ず確認する操作
+- クリック（`computer`, `left_click`等）
+- 文字入力（`type`, `form_input`）
+- フォーム送信・決定ボタン押下
+- JavaScript実行（`javascript_tool`, `execute_javascript`）
+- ファイルアップロード
+
+### 確認フォーマット
+操作前に以下のテンプレートで確認する：
+
+```
+マスター、「[サイト名]」で以下の操作を実行します：
+- 操作内容：[具体的に何を押す/入力するか]
+- 影響：[どんな変化があるか]
+実行してもよろしいですか？
+```
+
+マスターの「はい」「実行」等の明確な承諾を得てから実行する。
+
+### 例外
+- 「全部自動で」「確認なしで」とマスターが明示的に指示した場合のみ、その指示の範囲内で自動実行可能
+- ただし、**金額の発生・契約変更・解約を伴う操作は例外なく必ず確認する**
