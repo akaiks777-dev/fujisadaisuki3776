@@ -29,6 +29,9 @@ BACKUP_DIRS=(
     "scheduled-tasks"
     "plugins"
     "departments"
+    "principles"
+    "chocho_notes"
+    "emergency_procedures"
 )
 
 # ========================================

@@ -82,6 +82,33 @@
       "category": "事業",
       "status": "完了",
       "note": "NK HOLDINGS直接取引に同意・NK HOLDINGS連絡先と書類依頼・明日発注予定"
+    },
+    {
+      "id": "ev009",
+      "date": "2026-04-25",
+      "time": "07:35",
+      "title": "NK HOLDINGS送金完了（Wise）",
+      "category": "事業",
+      "status": "完了",
+      "note": "取引ID: 2095709870 / 38,649円 → 6,298,750 VND / 着金40分以内 / Invoice: NK-CN-2026-04-16"
+    },
+    {
+      "id": "ev010",
+      "date": "2026-04-25",
+      "time": "08:18",
+      "title": "K'LUXE JAPAN 萩原様へ送金完了報告メール送信",
+      "category": "事業",
+      "status": "完了",
+      "note": "Wise取引ID:2095709870 / 追跡リンク付き / Wiseチェック中4/29完了予定 / メーカー連休と重なる可能性を相談"
+    },
+    {
+      "id": "ev011",
+      "date": "2026-04-25",
+      "time": "14:14",
+      "title": "K'LUXE JAPAN 萩原様への返信メール送信（5/9手配感謝＋新パッケージ確認）",
+      "category": "事業",
+      "status": "完了",
+      "note": "5/9静岡着の手配お礼 / 新パッケージ5項目確認依頼 / GW明け返信OK配慮"
     }
   ]
 }
