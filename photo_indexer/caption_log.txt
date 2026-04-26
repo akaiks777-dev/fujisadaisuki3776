@@ -1,0 +1,441 @@
+[09:45:23] === Phase 3: AI画像キャプション開始 ===
+[09:45:23] 対象画像: 7326枚
+[09:45:23] 既処理: 0枚
+[09:45:23] MLXモデルロード中...
+[09:45:26] モデルロード完了
+[09:45:26] 処理対象: 7326枚
+[09:45:26] 推定時間: 4.1時間
+[09:46:05] 進捗 50/7326 (1.3枚/秒) ETA: 94.1分
+[09:46:42] 進捗 100/7326 (1.3枚/秒) ETA: 92.0分
+[09:47:20] 進捗 150/7326 (1.3枚/秒) ETA: 90.5分
+[09:47:57] 進捗 200/7326 (1.3枚/秒) ETA: 89.6分
+[09:48:37] 進捗 250/7326 (1.3枚/秒) ETA: 89.9分
+[09:49:17] 進捗 300/7326 (1.3枚/秒) ETA: 90.1分
+[09:49:57] 進捗 350/7326 (1.3枚/秒) ETA: 90.0分
+[09:50:36] 進捗 400/7326 (1.3枚/秒) ETA: 89.3分
+[09:51:16] 進捗 450/7326 (1.3枚/秒) ETA: 89.1分
+[09:51:56] 進捗 500/7326 (1.3枚/秒) ETA: 88.8分
+[09:52:36] 進捗 550/7326 (1.3枚/秒) ETA: 88.3分
+[09:53:17] 進捗 600/7326 (1.3枚/秒) ETA: 87.9分
+[09:53:57] 進捗 650/7326 (1.3枚/秒) ETA: 87.5分
+[09:54:37] 進捗 700/7326 (1.3枚/秒) ETA: 86.9分
+[09:55:17] 進捗 750/7326 (1.3枚/秒) ETA: 86.3分
+[09:55:57] 進捗 800/7326 (1.3枚/秒) ETA: 85.7分
+[09:56:36] 進捗 850/7326 (1.3枚/秒) ETA: 85.1分
+[09:57:15] 進捗 900/7326 (1.3枚/秒) ETA: 84.4分
+[09:57:54] 進捗 950/7326 (1.3枚/秒) ETA: 83.7分
+[09:58:34] 進捗 1000/7326 (1.3枚/秒) ETA: 83.1分
+[09:59:15] 進捗 1050/7326 (1.3枚/秒) ETA: 82.5分
+[09:59:56] 進捗 1100/7326 (1.3枚/秒) ETA: 82.1分
+[10:00:37] 進捗 1150/7326 (1.3枚/秒) ETA: 81.5分
+[10:01:17] 進捗 1200/7326 (1.3枚/秒) ETA: 80.9分
+[10:01:57] 進捗 1250/7326 (1.3枚/秒) ETA: 80.3分
+[10:02:37] 進捗 1300/7326 (1.3枚/秒) ETA: 79.7分
+[10:03:19] 進捗 1350/7326 (1.3枚/秒) ETA: 79.1分
+[10:03:59] 進捗 1400/7326 (1.3枚/秒) ETA: 78.5分
+[10:04:40] 進捗 1450/7326 (1.3枚/秒) ETA: 77.9分
+[10:05:20] 進捗 1500/7326 (1.3枚/秒) ETA: 77.3分
+[10:06:00] 進捗 1550/7326 (1.3枚/秒) ETA: 76.6分
+[10:06:40] 進捗 1600/7326 (1.3枚/秒) ETA: 76.0分
+[10:07:19] 進捗 1650/7326 (1.3枚/秒) ETA: 75.3分
+[10:07:59] 進捗 1700/7326 (1.3枚/秒) ETA: 74.6分
+[10:08:39] 進捗 1750/7326 (1.3枚/秒) ETA: 74.0分
+[10:09:19] 進捗 1800/7326 (1.3枚/秒) ETA: 73.3分
+[10:10:00] 進捗 1850/7326 (1.3枚/秒) ETA: 72.7分
+[10:10:39] 進捗 1900/7326 (1.3枚/秒) ETA: 72.0分
+[10:11:19] 進捗 1950/7326 (1.3枚/秒) ETA: 71.4分
+[10:11:59] 進捗 2000/7326 (1.3枚/秒) ETA: 70.7分
+[10:12:39] 進捗 2050/7326 (1.3枚/秒) ETA: 70.0分
+[10:13:18] 進捗 2100/7326 (1.3枚/秒) ETA: 69.4分
+[10:13:59] 進捗 2150/7326 (1.3枚/秒) ETA: 68.7分
+[10:14:40] 進捗 2200/7326 (1.3枚/秒) ETA: 68.1分
+[10:15:23] 進捗 2250/7326 (1.3枚/秒) ETA: 67.6分
+[10:16:05] 進捗 2300/7326 (1.3枚/秒) ETA: 67.0分
+[10:16:46] 進捗 2350/7326 (1.3枚/秒) ETA: 66.3分
+[10:17:27] 進捗 2400/7326 (1.2枚/秒) ETA: 65.7分
+[10:18:08] 進捗 2450/7326 (1.2枚/秒) ETA: 65.1分
+[10:18:49] 進捗 2500/7326 (1.2枚/秒) ETA: 64.4分
+[10:19:29] 進捗 2550/7326 (1.2枚/秒) ETA: 63.8分
+[10:20:11] 進捗 2600/7326 (1.2枚/秒) ETA: 63.2分
+[10:20:53] 進捗 2650/7326 (1.2枚/秒) ETA: 62.5分
+[10:21:34] 進捗 2700/7326 (1.2枚/秒) ETA: 61.9分
+[10:22:15] 進捗 2750/7326 (1.2枚/秒) ETA: 61.3分
+[10:22:55] 進捗 2800/7326 (1.2枚/秒) ETA: 60.6分
+[10:23:37] 進捗 2850/7326 (1.2枚/秒) ETA: 60.0分
+[10:24:18] 進捗 2900/7326 (1.2枚/秒) ETA: 59.3分
+[10:24:59] 進捗 2950/7326 (1.2枚/秒) ETA: 58.7分
+[10:25:40] 進捗 3000/7326 (1.2枚/秒) ETA: 58.0分
+[10:26:20] 進捗 3050/7326 (1.2枚/秒) ETA: 57.3分
+[10:27:02] 進捗 3100/7326 (1.2枚/秒) ETA: 56.7分
+[10:27:43] 進捗 3150/7326 (1.2枚/秒) ETA: 56.1分
+[10:28:24] 進捗 3200/7326 (1.2枚/秒) ETA: 55.4分
+[10:29:05] 進捗 3250/7326 (1.2枚/秒) ETA: 54.7分
+[10:29:46] 進捗 3300/7326 (1.2枚/秒) ETA: 54.1分
+[10:30:28] 進捗 3350/7326 (1.2枚/秒) ETA: 53.4分
+[10:31:10] 進捗 3400/7326 (1.2枚/秒) ETA: 52.8分
+[10:31:50] 進捗 3450/7326 (1.2枚/秒) ETA: 52.1分
+[10:32:31] 進捗 3500/7326 (1.2枚/秒) ETA: 51.5分
+[10:33:11] 進捗 3550/7326 (1.2枚/秒) ETA: 50.8分
+[10:33:51] 進捗 3600/7326 (1.2枚/秒) ETA: 50.1分
+[10:34:32] 進捗 3650/7326 (1.2枚/秒) ETA: 49.4分
+[10:35:13] 進捗 3700/7326 (1.2枚/秒) ETA: 48.8分
+[10:35:55] 進捗 3750/7326 (1.2枚/秒) ETA: 48.1分
+[10:36:36] 進捗 3800/7326 (1.2枚/秒) ETA: 47.5分
+[10:37:17] 進捗 3850/7326 (1.2枚/秒) ETA: 46.8分
+[10:37:59] 進捗 3900/7326 (1.2枚/秒) ETA: 46.2分
+[10:38:39] 進捗 3950/7326 (1.2枚/秒) ETA: 45.5分
+[10:39:20] 進捗 4000/7326 (1.2枚/秒) ETA: 44.8分
+[10:40:01] 進捗 4050/7326 (1.2枚/秒) ETA: 44.1分
+[10:40:41] 進捗 4100/7326 (1.2枚/秒) ETA: 43.5分
+[10:41:22] 進捗 4150/7326 (1.2枚/秒) ETA: 42.8分
+[10:42:03] 進捗 4200/7326 (1.2枚/秒) ETA: 42.1分
+[10:42:45] 進捗 4250/7326 (1.2枚/秒) ETA: 41.5分
+[10:43:26] 進捗 4300/7326 (1.2枚/秒) ETA: 40.8分
+[10:44:07] 進捗 4350/7326 (1.2枚/秒) ETA: 40.2分
+[10:44:48] 進捗 4400/7326 (1.2枚/秒) ETA: 39.5分
+[10:45:29] 進捗 4450/7326 (1.2枚/秒) ETA: 38.8分
+[10:46:11] 進捗 4500/7326 (1.2枚/秒) ETA: 38.1分
+[10:46:52] 進捗 4550/7326 (1.2枚/秒) ETA: 37.5分
+[10:47:34] 進捗 4600/7326 (1.2枚/秒) ETA: 36.8分
+[10:48:14] 進捗 4650/7326 (1.2枚/秒) ETA: 36.1分
+[10:48:54] 進捗 4700/7326 (1.2枚/秒) ETA: 35.5分
+[10:49:35] 進捗 4750/7326 (1.2枚/秒) ETA: 34.8分
+[10:50:16] 進捗 4800/7326 (1.2枚/秒) ETA: 34.1分
+[10:50:57] 進捗 4850/7326 (1.2枚/秒) ETA: 33.4分
+[10:51:39] 進捗 4900/7326 (1.2枚/秒) ETA: 32.8分
+[10:52:21] 進捗 4950/7326 (1.2枚/秒) ETA: 32.1分
+[10:53:03] 進捗 5000/7326 (1.2枚/秒) ETA: 31.5分
+[10:53:46] 進捗 5050/7326 (1.2枚/秒) ETA: 30.8分
+[10:54:24] 進捗 5100/7326 (1.2枚/秒) ETA: 30.1分
+[10:55:03] 進捗 5150/7326 (1.2枚/秒) ETA: 29.4分
+[10:55:45] 進捗 5200/7326 (1.2枚/秒) ETA: 28.7分
+[10:56:28] 進捗 5250/7326 (1.2枚/秒) ETA: 28.1分
+[10:57:08] 進捗 5300/7326 (1.2枚/秒) ETA: 27.4分
+[10:57:50] 進捗 5350/7326 (1.2枚/秒) ETA: 26.7分
+[10:58:33] 進捗 5400/7326 (1.2枚/秒) ETA: 26.1分
+[10:59:18] 進捗 5450/7326 (1.2枚/秒) ETA: 25.4分
+[11:00:00] 進捗 5500/7326 (1.2枚/秒) ETA: 24.8分
+[11:00:42] 進捗 5550/7326 (1.2枚/秒) ETA: 24.1分
+[11:01:24] 進捗 5600/7326 (1.2枚/秒) ETA: 23.4分
+[11:02:07] 進捗 5650/7326 (1.2枚/秒) ETA: 22.7分
+[11:02:49] 進捗 5700/7326 (1.2枚/秒) ETA: 22.1分
+[11:03:30] 進捗 5750/7326 (1.2枚/秒) ETA: 21.4分
+[11:04:11] 進捗 5800/7326 (1.2枚/秒) ETA: 20.7分
+[11:04:52] 進捗 5850/7326 (1.2枚/秒) ETA: 20.0分
+[11:05:34] 進捗 5900/7326 (1.2枚/秒) ETA: 19.4分
+[11:06:15] 進捗 5950/7326 (1.2枚/秒) ETA: 18.7分
+[11:06:56] 進捗 6000/7326 (1.2枚/秒) ETA: 18.0分
+[11:07:37] 進捗 6050/7326 (1.2枚/秒) ETA: 17.3分
+[11:08:17] 進捗 6100/7326 (1.2枚/秒) ETA: 16.7分
+[11:08:43] エラー (id=6142): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0397.HEIC 
+[11:08:44] エラー (id=6144): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0246.HEIC 
+[11:08:49] エラー (id=6151): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0250.HEIC 
+[11:08:51] 進捗 6150/7326 (1.2枚/秒) ETA: 15.9分
+[11:08:52] エラー (id=6156): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0335.HEIC 
+[11:08:52] エラー (id=6157): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0159.HEIC 
+[11:08:52] エラー (id=6158): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0201(1).HE
+[11:08:52] エラー (id=6159): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0374.HEIC 
+[11:08:54] エラー (id=6162): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0163.HEIC 
+[11:09:07] エラー (id=6178): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0334.HEIC 
+[11:09:08] エラー (id=6180): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0251.HEIC 
+[11:09:11] エラー (id=6184): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0210.HEIC 
+[11:09:11] エラー (id=6185): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0355.HEIC 
+[11:09:11] エラー (id=6186): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0586.HEIC 
+[11:09:11] エラー (id=6187): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0569.HEIC 
+[11:09:11] エラー (id=6188): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0247.HEIC 
+[11:09:17] エラー (id=6197): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0441.HEIC 
+[11:09:22] エラー (id=6204): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0260.HEIC 
+[11:09:24] エラー (id=6207): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0237.HEIC 
+[11:09:26] エラー (id=6210): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0562.HEIC 
+[11:09:31] エラー (id=6217): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0283.HEIC 
+[11:09:31] エラー (id=6218): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0391.HEIC 
+[11:09:31] エラー (id=6219): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0186.HEIC 
+[11:09:31] エラー (id=6220): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0240.HEIC 
+[11:09:34] 進捗 6200/7326 (1.2枚/秒) ETA: 15.3分
+[11:09:36] エラー (id=6227): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0344.HEIC 
+[11:09:38] エラー (id=6230): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0256.HEIC 
+[11:09:40] エラー (id=6234): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0353.HEIC 
+[11:09:40] エラー (id=6235): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0241.HEIC 
+[11:09:43] エラー (id=6239): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0294.HEIC 
+[11:09:45] エラー (id=6243): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0410.HEIC 
+[11:09:48] エラー (id=6247): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0349.HEIC 
+[11:09:48] エラー (id=6248): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0164.HEIC 
+[11:09:48] エラー (id=6249): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0534.HEIC 
+[11:09:49] エラー (id=6251): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0236.HEIC 
+[11:09:50] エラー (id=6253): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0261.HEIC 
+[11:09:52] エラー (id=6256): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0277.HEIC 
+[11:09:52] エラー (id=6257): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0181(1).HE
+[11:10:02] エラー (id=6270): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0409.HEIC 
+[11:10:02] エラー (id=6271): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0235.HEIC 
+[11:10:02] エラー (id=6272): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0370.HEIC 
+[11:10:04] エラー (id=6276): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0254.HEIC 
+[11:10:09] エラー (id=6282): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0350.HEIC 
+[11:10:11] エラー (id=6286): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0242.HEIC 
+[11:10:12] エラー (id=6288): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0184.HEIC 
+[11:10:12] エラー (id=6289): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0239.HEIC 
+[11:10:16] エラー (id=6294): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0517.HEIC 
+[11:10:16] エラー (id=6295): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0278.HEIC 
+[11:10:16] 進捗 6250/7326 (1.2枚/秒) ETA: 14.6分
+[11:10:23] エラー (id=6304): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0238.HEIC 
+[11:10:24] エラー (id=6307): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0243.HEIC 
+[11:10:27] エラー (id=6311): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0202.HEIC 
+[11:10:29] エラー (id=6315): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0255.HEIC 
+[11:10:31] エラー (id=6318): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0275.HEIC 
+[11:10:33] エラー (id=6321): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0234.HEIC 
+[11:10:37] エラー (id=6327): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0259.HEIC 
+[11:10:38] エラー (id=6329): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0252.HEIC 
+[11:10:41] エラー (id=6334): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0213.HEIC 
+[11:10:41] エラー (id=6335): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0585.HEIC 
+[11:10:42] エラー (id=6337): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0244.HEIC 
+[11:10:43] エラー (id=6339): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0182.HEIC 
+[11:10:44] エラー (id=6341): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0287.HEIC 
+[11:10:44] エラー (id=6342): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0511.HEIC 
+[11:10:45] エラー (id=6344): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0157.HEIC 
+[11:10:46] エラー (id=6346): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0462.HEIC 
+[11:10:47] エラー (id=6348): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0570.HEIC 
+[11:10:50] エラー (id=6353): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0248.HEIC 
+[11:10:50] エラー (id=6354): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0399.HEIC 
+[11:10:50] エラー (id=6355): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0233.HEIC 
+[11:10:53] エラー (id=6359): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0361.HEIC 
+[11:10:54] エラー (id=6362): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0232.HEIC 
+[11:10:54] エラー (id=6363): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0249.HEIC 
+[11:10:54] エラー (id=6364): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0160.HEIC 
+[11:10:59] エラー (id=6370): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0176.HEIC 
+[11:11:00] 進捗 6300/7326 (1.2枚/秒) ETA: 13.9分
+[11:11:01] エラー (id=6374): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0382.HEIC 
+[11:11:03] エラー (id=6377): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0290.HEIC 
+[11:11:05] エラー (id=6380): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0286.HEIC 
+[11:11:07] エラー (id=6383): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0183.HEIC 
+[11:11:07] エラー (id=6384): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0300.HEIC 
+[11:11:07] エラー (id=6385): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0245.HEIC 
+[11:11:07] エラー (id=6387): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0357.HEIC 
+[11:11:12] エラー (id=6394): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2022年/2022年07月_第2アカウント/IMG_0253.HEIC 
+[11:11:33] 進捗 6350/7326 (1.2枚/秒) ETA: 13.2分
+[11:11:44] エラー (id=6449): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2715.HEIC 
+[11:11:44] エラー (id=6450): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2758.HEIC 
+[11:11:44] エラー (id=6451): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2719.HEIC 
+[11:11:44] エラー (id=6452): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2718.HEIC 
+[11:11:44] エラー (id=6453): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2831.HEIC 
+[11:11:44] エラー (id=6454): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2702.HEIC 
+[11:11:44] エラー (id=6455): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2836.HEIC 
+[11:11:44] エラー (id=6456): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2820.HEIC 
+[11:11:44] エラー (id=6457): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2821.HEIC 
+[11:11:44] エラー (id=6458): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2837.HEIC 
+[11:11:44] エラー (id=6459): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2822.HEIC 
+[11:11:44] エラー (id=6460): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2838.HEIC 
+[11:11:44] エラー (id=6461): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2751.HEIC 
+[11:11:44] エラー (id=6462): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2815.HEIC 
+[11:11:44] エラー (id=6463): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2663.HEIC 
+[11:11:44] エラー (id=6464): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2812.HEIC 
+[11:11:44] エラー (id=6465): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2717.HEIC 
+[11:11:44] エラー (id=6466): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2828.HEIC 
+[11:11:44] エラー (id=6467): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2832.HEIC 
+[11:11:44] エラー (id=6468): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年11月_第2アカウント/IMG_2825.HEIC 
+[11:11:44] エラー (id=6469): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2580.HEIC 
+[11:11:44] エラー (id=6470): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2538.HEIC 
+[11:11:44] エラー (id=6471): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2596.HEIC 
+[11:11:44] エラー (id=6472): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2543.HEIC 
+[11:11:44] エラー (id=6473): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2542.HEIC 
+[11:11:44] エラー (id=6474): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2539.HEIC 
+[11:11:44] エラー (id=6475): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2586.HEIC 
+[11:11:44] エラー (id=6476): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2656.HEIC 
+[11:11:44] エラー (id=6477): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2545.HEIC 
+[11:11:44] エラー (id=6478): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2544.HEIC 
+[11:11:44] エラー (id=6479): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2661.HEIC 
+[11:11:44] エラー (id=6480): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2635.HEIC 
+[11:11:44] エラー (id=6481): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2658.HEIC 
+[11:11:44] エラー (id=6482): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2585.HEIC 
+[11:11:44] エラー (id=6483): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2546.HEIC 
+[11:11:44] エラー (id=6484): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2634.HEIC 
+[11:11:44] エラー (id=6485): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2541.HEIC 
+[11:11:44] エラー (id=6486): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2652.HEIC 
+[11:11:44] エラー (id=6487): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2598.HEIC 
+[11:11:44] エラー (id=6488): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2537.HEIC 
+[11:11:44] エラー (id=6489): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2595.HEIC 
+[11:11:44] エラー (id=6490): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年10月_第2アカウント/IMG_2540.HEIC 
+[11:11:44] エラー (id=6491): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年06月_第2アカウント/IMG_1801.HEIC 
+[11:11:44] エラー (id=6492): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年06月_第2アカウント/IMG_1799.HEIC 
+[11:11:44] エラー (id=6493): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年06月_第2アカウント/IMG_1802.HEIC 
+[11:11:44] エラー (id=6494): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2129.HEIC 
+[11:11:44] エラー (id=6495): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2152.HEIC 
+[11:11:44] エラー (id=6496): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2133.HEIC 
+[11:11:44] エラー (id=6497): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2164.HEIC 
+[11:11:44] エラー (id=6498): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2124.HEIC 
+[11:11:44] エラー (id=6499): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2165.HEIC 
+[11:11:44] エラー (id=6500): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2098.HEIC 
+[11:11:44] エラー (id=6501): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2132.HEIC 
+[11:11:44] エラー (id=6502): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2128.HEIC 
+[11:11:44] エラー (id=6503): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2135.HEIC 
+[11:11:44] エラー (id=6504): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2162.HEIC 
+[11:11:44] エラー (id=6505): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2158.HEIC 
+[11:11:44] エラー (id=6506): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2155.HEIC 
+[11:11:44] エラー (id=6507): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2179.HEIC 
+[11:11:44] エラー (id=6508): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2138.HEIC 
+[11:11:44] エラー (id=6509): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2160.HEIC 
+[11:11:44] エラー (id=6510): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2137.HEIC 
+[11:11:44] エラー (id=6511): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2156.HEIC 
+[11:11:44] エラー (id=6512): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2157.HEIC 
+[11:11:44] エラー (id=6513): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2141.HEIC 
+[11:11:44] エラー (id=6514): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2136.HEIC 
+[11:11:44] エラー (id=6515): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2150.HEIC 
+[11:11:44] エラー (id=6516): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2189.HEIC 
+[11:11:44] エラー (id=6517): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2130.HEIC 
+[11:11:44] エラー (id=6518): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年07月_第2アカウント/IMG_2126.HEIC 
+[11:11:44] エラー (id=6519): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2884.HEIC 
+[11:11:44] エラー (id=6520): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2867.HEIC 
+[11:11:44] エラー (id=6521): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2871.HEIC 
+[11:11:44] エラー (id=6522): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2934.HEIC 
+[11:11:44] エラー (id=6523): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2870.HEIC 
+[11:11:44] エラー (id=6524): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2866.HEIC 
+[11:11:44] エラー (id=6525): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2942.HEIC 
+[11:11:44] エラー (id=6526): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2885.HEIC 
+[11:11:44] エラー (id=6527): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2877.HEIC 
+[11:11:44] エラー (id=6528): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2882.HEIC 
+[11:11:44] エラー (id=6529): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2928.HEIC 
+[11:11:44] エラー (id=6530): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2883.HEIC 
+[11:11:44] エラー (id=6531): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2876.HEIC 
+[11:11:44] エラー (id=6532): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2933.HEIC 
+[11:11:44] エラー (id=6533): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2925.HEIC 
+[11:11:44] エラー (id=6534): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2875.HEIC 
+[11:11:44] エラー (id=6535): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2926.HEIC 
+[11:11:44] エラー (id=6536): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2863.HEIC 
+[11:11:44] エラー (id=6537): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2879.HEIC 
+[11:11:44] エラー (id=6538): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2881.HEIC 
+[11:11:44] エラー (id=6539): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2927.HEIC 
+[11:11:44] エラー (id=6540): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2936.HEIC 
+[11:11:44] エラー (id=6541): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2873.HEIC 
+[11:11:44] エラー (id=6542): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2864.HEIC 
+[11:11:44] エラー (id=6543): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2872.HEIC 
+[11:11:44] エラー (id=6544): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年12月_第2アカウント/IMG_2940.HEIC 
+[11:11:44] エラー (id=6545): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2386.HEIC 
+[11:11:44] エラー (id=6546): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2372.HEIC 
+[11:11:44] エラー (id=6547): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2276.HEIC 
+[11:11:44] エラー (id=6548): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2387.HEIC 
+[11:11:44] エラー (id=6549): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2271.HEIC 
+[11:11:44] エラー (id=6550): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2270.HEIC 
+[11:11:44] エラー (id=6551): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2265.HEIC 
+[11:11:44] エラー (id=6552): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2273.HEIC 
+[11:11:44] エラー (id=6553): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2383.HEIC 
+[11:11:44] エラー (id=6554): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2272.HEIC 
+[11:11:44] エラー (id=6555): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2264.HEIC 
+[11:11:44] エラー (id=6556): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2384.HEIC 
+[11:11:44] エラー (id=6557): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2263.HEIC 
+[11:11:44] エラー (id=6558): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2275.HEIC 
+[11:11:44] エラー (id=6559): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2262.HEIC 
+[11:11:44] エラー (id=6560): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2023年/2023年08月_第2アカウント/IMG_2385.HEIC 
+[11:12:07] 進捗 6400/7326 (1.2枚/秒) ETA: 12.5分
+[11:12:43] 進捗 6450/7326 (1.2枚/秒) ETA: 11.9分
+[11:13:01] エラー (id=6671): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年08月_第2アカウント/IMG_0030.HEIC 
+[11:13:01] エラー (id=6672): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年08月_第2アカウント/IMG_0029.HEIC 
+[11:13:01] エラー (id=6673): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3256.HEIC 
+[11:13:01] エラー (id=6674): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3240.HEIC 
+[11:13:01] エラー (id=6675): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3237.HEIC 
+[11:13:01] エラー (id=6676): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3260.HEIC 
+[11:13:01] エラー (id=6677): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3261.HEIC 
+[11:13:01] エラー (id=6678): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3236.HEIC 
+[11:13:01] エラー (id=6679): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3257.HEIC 
+[11:13:01] エラー (id=6680): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3282.HEIC 
+[11:13:01] エラー (id=6681): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3231.HEIC 
+[11:13:01] エラー (id=6682): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3266.HEIC 
+[11:13:01] エラー (id=6683): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_0036.HEIC 
+[11:13:01] エラー (id=6684): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3250.HEIC 
+[11:13:01] エラー (id=6685): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3197.HEIC 
+[11:13:01] エラー (id=6686): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3251.HEIC 
+[11:13:01] エラー (id=6687): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3267.HEIC 
+[11:13:01] エラー (id=6688): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3248.HEIC 
+[11:13:01] エラー (id=6689): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3264.HEIC 
+[11:13:01] エラー (id=6690): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3233.HEIC 
+[11:13:01] エラー (id=6691): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3252.HEIC 
+[11:13:01] エラー (id=6692): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3268.HEIC 
+[11:13:01] エラー (id=6693): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_0014.HEIC 
+[11:13:01] エラー (id=6694): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3253.HEIC 
+[11:13:01] エラー (id=6695): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3232.HEIC 
+[11:13:01] エラー (id=6696): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3265.HEIC 
+[11:13:01] エラー (id=6697): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3249.HEIC 
+[11:13:01] エラー (id=6698): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3254.HEIC 
+[11:13:01] エラー (id=6699): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_0012.HEIC 
+[11:13:01] エラー (id=6700): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3281.HEIC 
+[11:13:01] エラー (id=6701): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3239.HEIC 
+[11:13:01] エラー (id=6702): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3258.HEIC 
+[11:13:01] エラー (id=6703): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3262.HEIC 
+[11:13:01] エラー (id=6704): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3235.HEIC 
+[11:13:01] エラー (id=6705): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3234.HEIC 
+[11:13:01] エラー (id=6706): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3263.HEIC 
+[11:13:01] エラー (id=6707): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3259.HEIC 
+[11:13:01] エラー (id=6708): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3238.HEIC 
+[11:13:01] エラー (id=6709): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3280.HEIC 
+[11:13:01] エラー (id=6710): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年03月_第2アカウント/IMG_3255.HEIC 
+[11:13:01] エラー (id=6711): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3153.HEIC 
+[11:13:01] エラー (id=6712): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3186.HEIC 
+[11:13:01] エラー (id=6713): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3169.HEIC 
+[11:13:01] エラー (id=6714): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3173.HEIC 
+[11:13:01] エラー (id=6715): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3165.HEIC 
+[11:13:01] エラー (id=6716): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3164.HEIC 
+[11:13:01] エラー (id=6717): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3172.HEIC 
+[11:13:01] エラー (id=6718): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3187.HEIC 
+[11:13:01] エラー (id=6719): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3168.HEIC 
+[11:13:01] エラー (id=6720): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3163.HEIC 
+[11:13:01] エラー (id=6721): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3155.HEIC 
+[11:13:01] エラー (id=6722): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3154.HEIC 
+[11:13:01] エラー (id=6723): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3162.HEIC 
+[11:13:01] エラー (id=6724): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3161.HEIC 
+[11:13:01] エラー (id=6725): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3182.HEIC 
+[11:13:01] エラー (id=6726): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3157.HEIC 
+[11:13:01] エラー (id=6727): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3156.HEIC 
+[11:13:01] エラー (id=6728): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3188.HEIC 
+[11:13:01] エラー (id=6729): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3171.HEIC 
+[11:13:01] エラー (id=6730): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3170.HEIC 
+[11:13:01] エラー (id=6731): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年02月_第2アカウント/IMG_3166.HEIC 
+[11:13:01] エラー (id=6732): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年04月_第2アカウント/IMG_0042.HEIC 
+[11:13:01] エラー (id=6733): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_2975.HEIC 
+[11:13:01] エラー (id=6734): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3108.HEIC 
+[11:13:01] エラー (id=6735): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3109.HEIC 
+[11:13:01] エラー (id=6736): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3088.HEIC 
+[11:13:01] エラー (id=6737): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3114.HEIC 
+[11:13:01] エラー (id=6738): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3006.HEIC 
+[11:13:01] エラー (id=6739): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3010.HEIC 
+[11:13:01] エラー (id=6740): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_2969.HEIC 
+[11:13:01] エラー (id=6741): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3084.HEIC 
+[11:13:01] エラー (id=6742): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3092.HEIC 
+[11:13:01] エラー (id=6743): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_2952.HEIC 
+[11:13:01] エラー (id=6744): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3085.HEIC 
+[11:13:01] エラー (id=6745): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_2944.HEIC 
+[11:13:01] エラー (id=6746): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3011.HEIC 
+[11:13:01] エラー (id=6747): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3089.HEIC 
+[11:13:01] エラー (id=6748): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3008.HEIC 
+[11:13:01] エラー (id=6749): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3090.HEIC 
+[11:13:01] エラー (id=6750): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_2984.HEIC 
+[11:13:01] エラー (id=6751): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3012.HEIC 
+[11:13:01] エラー (id=6752): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_2993.HEIC 
+[11:13:01] エラー (id=6753): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3091.HEIC 
+[11:13:01] エラー (id=6754): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_2970.HEIC 
+[11:13:01] エラー (id=6755): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3009.HEIC 
+[11:13:01] エラー (id=6756): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3106.HEIC 
+[11:13:01] エラー (id=6757): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3110.HEIC 
+[11:13:01] エラー (id=6758): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_2994.HEIC 
+[11:13:01] エラー (id=6759): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_2995.HEIC 
+[11:13:01] エラー (id=6760): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3111.HEIC 
+[11:13:01] エラー (id=6761): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3015.HEIC 
+[11:13:01] エラー (id=6762): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年/2024年01月_第2アカウント/IMG_3107.HEIC 
+[11:13:05] エラー (id=6768): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2024年04月_ロードバイクと富士山/IMG_0062_g.HEIC w
+[11:13:18] 進捗 6500/7326 (1.2枚/秒) ETA: 11.2分
+[11:14:03] 進捗 6550/7326 (1.2枚/秒) ETA: 10.5分
+[11:14:49] 進捗 6600/7326 (1.2枚/秒) ETA: 9.8分
+[11:15:35] 進捗 6650/7326 (1.2枚/秒) ETA: 9.2分
+[11:16:18] 進捗 6700/7326 (1.2枚/秒) ETA: 8.5分
+[11:16:49] 進捗 6750/7326 (1.2枚/秒) ETA: 7.8分
+[11:17:02] エラー (id=7055): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2025年/2025年07月_第2アカウント/IMG_0054.HEIC 
+[11:17:02] エラー (id=7056): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2025年/2025年03月_第2アカウント/IMG_0047.HEIC 
+[11:17:02] エラー (id=7057): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2025年/2025年09月_第2アカウント/IMG_2574.HEIC 
+[11:17:02] エラー (id=7058): Failed to load image from /Users/shigesan/Pictures/Googleフォト整理/2025年/2025年09月_第2アカウント/IMG_2573.HEIC 
+[11:17:23] 進捗 6800/7326 (1.2枚/秒) ETA: 7.1分
+[11:17:55] 進捗 6850/7326 (1.2枚/秒) ETA: 6.4分
+[11:18:33] 進捗 6900/7326 (1.2枚/秒) ETA: 5.7分
+[11:19:16] 進捗 6950/7326 (1.2枚/秒) ETA: 5.1分
+[11:19:58] 進捗 7000/7326 (1.2枚/秒) ETA: 4.4分
+[11:20:25] 
+=== 完了 ===
+[11:20:25] 処理: 7038枚
+[11:20:25] エラー: 288枚
+[11:20:25] 所要時間: 95.0分
+[11:20:25] DB保存: /Users/shigesan/.claude/photo_indexer/captions.json
